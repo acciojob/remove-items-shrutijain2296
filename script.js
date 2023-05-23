@@ -1,6 +1,6 @@
 //your JS code here. If required.
 function deleteElement(){
-	let selectElement = document.getElementsByTagName("select")
+	let selectElement = document.getElementsByTagName("select")[0]
 	let selectedElement = selectElement.value;
 	let childrenList = selectElement.children;
 
